@@ -1,2 +1,4 @@
-if __name__ == "__main__":
-    pass
+n=int(input())
+k=int(input())
+for i in range(n):
+    print(k)
