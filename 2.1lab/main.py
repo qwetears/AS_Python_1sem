@@ -14,4 +14,12 @@ a) def sort_dict_by_values(input_dict):
             result[key] = value  
               
     return result  
-в) 
+в) def check_keys(dictionary, keys_to_check):      
+    result = {}   
+    for key in keys_to_check:   
+        if key in dictionary:  
+            result[key] = True  
+        else:  
+            result[key] = False  
+              
+    return result  
